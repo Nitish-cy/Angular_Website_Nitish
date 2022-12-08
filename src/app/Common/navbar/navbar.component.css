@@ -1,0 +1,11 @@
+.navv{
+    display: flex;
+    flex-direction: row-reverse;
+    padding-right: 50px;
+}
+nav{
+    background-color: aqua;
+}
+.nvr{
+    height: 30px;
+}

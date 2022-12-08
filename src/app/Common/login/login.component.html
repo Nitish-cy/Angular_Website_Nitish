@@ -1,0 +1,7 @@
+<form [formGroup]="loginform" (ngSubmit)="SignIn()"  class="container form-group mt-5px">
+    <input type="text" placeholder="enter email" formControlName="user" class="form-control">
+    <br>
+    <input type="password" placeholder="enter password" formControlName="password" class="form-control">
+    <br>
+    <button class="form-control btn btn-success">Login</button>
+</form>

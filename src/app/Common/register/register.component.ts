@@ -13,4 +13,9 @@ export class RegisterComponent {
     Mobile:new FormControl(''),
     Address:new FormControl('')
   })
+  SignUp()
+{
+  console.table(this.register.value);
+  alert(this.register.value);
+}
 }

@@ -7,7 +7,6 @@ import { HomeComponent } from './Common/home/home.component';
 import { LoginComponent } from './Common/login/login.component';
 import { RegisterComponent } from './Common/register/register.component';
 import { SliderComponent } from './Common/slider/slider.component';
-
 const routes: Routes = [
 {
   path:"",

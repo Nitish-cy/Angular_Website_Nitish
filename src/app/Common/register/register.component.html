@@ -1,5 +1,6 @@
-
-<form [formGroup]="register"  class="container form-group">
+<div class="row"><div class="col-lg-4"></div>
+<div class="col-lg-4">
+<form [formGroup]="register"  class="container form-group" (ngSubmit)="SignUp()">
     <div>
     <input type="text" placeholder="enter Name" formControlName="user" class="form-control">
     <br>
@@ -13,6 +14,10 @@
     <br>
     <input type="textarea" placeholder="enter address" formControlName="user" class="form-control">
     <br>
-    <button class="btn btn-success form-control"><b>Login</b></button>
+    <button class="btn btn-success form-control"><b>Register</b></button>
     </div>
 </form>
+</div>
+<div class="col-lg-4"></div>
+<p class="text white">Value:{{register.value | json}}</p>
+</div>

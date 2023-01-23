@@ -1,11 +1,42 @@
-.navv{
-    display: flex;
-    flex-direction: row-reverse;
-    padding-right: 50px;
+.topbar {
+    height: 80px;
+    width: 100%;
+  background-color: black;
+  position: sticky;
+  top: 0;
+  z-index: 999;
 }
-nav{
-    background-color: aqua;
+.toppbarwrapper {
+  height: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
-.nvr{
+.logo {
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+
+.topbariconsContainer {
+  display: flex;
+  align-items: center;
+  color: white;
+}
+.item {
+  margin: 0px 10px;
+  text-decoration: none;
+  color: inherit;
+}
+li{
+    text-decoration: none;
+}
+/*
+.avtar{
+    width: 30px;
     height: 30px;
-}
+    border-radius: 50%;
+    cursor: pointer;
+} */
